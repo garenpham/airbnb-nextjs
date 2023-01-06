@@ -14,6 +14,8 @@ https://heroicons.com/
     npm i @heroicons/react
 ```
 
+https://www.npmjs.com/package/tailwind-scrollbar-hide
+
 ```bash
     npm i tailwind-scrollbar-hide
 ```
