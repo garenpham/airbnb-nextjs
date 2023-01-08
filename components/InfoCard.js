@@ -26,6 +26,7 @@ function InfoCard({ img, location, title, description, star, price, total }) {
 				<Image
 					className={style.img}
 					src={img}
+					alt="infoCard"
 					fill
 				/>
 			</div>

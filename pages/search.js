@@ -3,7 +3,7 @@ import Footer from './../components/Footer'
 import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import InfoCard from './../components/InfoCard'
-import Map from './../components/Map'
+import MapBox from '../components/MapBox'
 
 const style = {
 	wrapper: ``,
@@ -13,7 +13,7 @@ const style = {
 	headline__title: `text-3xl font-semibold mt-2 mb-6`,
 	filters: `hidden lg:inline-flex mb-5 space-x-3 text-gray-800 whitespace-nowrap`,
 	results: `flex flex-col`,
-	map: `hidden xl:inline-flex`,
+	map: `hidden xl:inline-flex xl:min-w-[600px]`,
 }
 
 function Search({ searchResults }) {
@@ -73,7 +73,7 @@ function Search({ searchResults }) {
 				</section>
 
 				<section className={style.map}>
-					<Map />
+					<MapBox searchResults={searchResults} />
 				</section>
 			</main>
 
