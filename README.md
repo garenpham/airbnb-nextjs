@@ -19,3 +19,25 @@ https://www.npmjs.com/package/tailwind-scrollbar-hide
 ```bash
     npm i tailwind-scrollbar-hide
 ```
+
+https://github.com/hypeserver/react-date-range
+
+```bash
+    npm i --save react-date-range
+```
+
+```bash
+    npm i --save react date-fns
+```
+
+https://www.npmjs.com/package/@badrap/bar-of-progress
+
+```bash
+    npm i @badrap/bar-of-progress
+```
+
+https://github.com/visgl/react-map-gl
+
+```bash
+    npm i --save react-map-gl mapbox-gl
+```
